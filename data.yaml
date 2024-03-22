@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cap', 'ind', 'net', 'net_node', 'res', 'source']
+
+roboflow:
+  workspace: 1-3yyuh
+  project: electric-components-bueig
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/1-3yyuh/electric-components-bueig/dataset/1
